@@ -1,1 +1,0 @@
-import{_ as e}from"./unauthorized-c0a8db7d.js";import{_ as s,c as o,o as c,a as t}from"./index-f7f9df56.js";const a={},r={class:"has-text-centered"},_=t("h1",{class:"title"},"Nie si autorizovaný vidieť obsah tejto stránky",-1),n=t("img",{src:e},null,-1),i=[_,n];function d(h,l){return c(),o("div",r,i)}const p=s(a,[["render",d]]);export{p as default};
