@@ -1,0 +1,5 @@
+version: 1
+routes:
+  # All routes will be redirected to the index.html file
+  - src: /.*
+    dest: /index.html
