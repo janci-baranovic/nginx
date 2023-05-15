@@ -1,4 +1,2 @@
 FROM nginx:alpine
-RUN echo 'location / {' >> /etc/nginx/nginx.conf && \
-    echo '    try_files $uri $uri/ /index.html;' >> /etc/nginx/nginx.conf && \
-    echo '}' >> /etc/nginx/nginx.conf
+RUN sed -i '/server {/a \    location / {\n        try_files $uri $uri/ /index.html;\n    }' /etc/nginx/nginx.conf
